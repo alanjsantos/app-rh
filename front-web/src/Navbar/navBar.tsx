@@ -4,7 +4,7 @@ function Navbar () {
   return (
     <header>
       <div className="containe-fluidr p-0">
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-md navbar-dark bg-danger">
           <button
             className="navbar-toggler"
             type="button"
@@ -18,13 +18,13 @@ function Navbar () {
           </button>
 
           <Link className="navbar-brand" to="/">
-            Recursos Humanos
+          Hospital Universitário Oswaldo Cruz
           </Link>
 
           <section className="collpase navbar-collapse" id="navbarMainToggler">
-            <div className="navbar-nav ml-auto">
+            <div className="navbar-nav ml-auto ">
 
-              <Link className="nav-item nav-link" to="/home">
+              <Link className="nav-item nav-link " to="/home">
 
                 <i className="fas fa-home"></i>&nbsp;Home
 
@@ -59,3 +59,4 @@ function Navbar () {
 }
 
 export default Navbar;
+ 

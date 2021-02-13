@@ -1,10 +1,9 @@
 function Home() {
     return (
       
-        <h1>Home.</h1>
+        <h1>CENTRAL DE RECURSOS HUMANOS </h1>
       
     );
   }
   
   export default Home;
-  
