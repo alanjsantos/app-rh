@@ -8,6 +8,7 @@ function Documents() {
               <th scope="col">#</th>
               <th scope="col">Documento</th>
               <th scope="col">Downloads</th>
+              
             </tr>
           </thead>
           <tbody>
